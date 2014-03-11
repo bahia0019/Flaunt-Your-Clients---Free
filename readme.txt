@@ -3,7 +3,7 @@ Contributors: bahia0019, brainfestation
 Tested up to: 3.8
 License: GPL
 
-Flaunt Your Clients is a plugin for Professional Photographers to create Client Hubs that display related posts, Love Stories, and Reviews from your Clients.
+Photographers, create Client Hubs that display related blog posts, Love Stories, and Reviews from your Clients for an ultimate client experience.
 
 == Description ==
 
@@ -11,7 +11,7 @@ Flaunt Your Clients is a plugin for Professional Photographers to create Client 
 
 Brought to you by [Flaunt Your Site](http://flauntyoursite.com) a company specializing in custom websites and solutions for Professional Photographers.
 
-[youtube http://youtu.be/4QPlOqJtXm8]
+[youtube https://www.youtube.com/watch?v=4QPlOqJtXm8]
 
 
 == Installation ==
@@ -20,7 +20,6 @@ Brought to you by [Flaunt Your Site](http://flauntyoursite.com) a company specia
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. !Important - If you get a 404 Not Found error when viewing a Client Page, you must clear out your Permalink Cache by going into the WordPress Menu Under Settings --> Permalinks and clicking the Save button without making any changes to the page. 
 
-== How To Use ==
 
 Create a New Client 
 
@@ -38,6 +37,7 @@ To tie blog posts to the Client page
 4. Optional step: Pick a Featured Image.
 5. Click Publish.
 6. If you look at your Client Page you will see the Featured Image and Title for youe Blog Post linked together.
+
 
 == Frequently Asked Questions ==
 
@@ -58,7 +58,3 @@ Yes, however this is a Free version with more options to come in a Pro version (
 = 0.5 =
 * Initial Release
 
-
-== Upgrade to Pro Version ==
-
-Coming soon!

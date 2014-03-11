@@ -33,7 +33,7 @@ function fyc_clients_post_type() {
 			'capability_type' => 'post',
 			'hierarchical' => false,
 			/* the next one is important, it tells what's enabled in the post editor */
-			'supports' => array( 'title', 'editor', 'author', 'thumbnail', 'revisions', 'sticky')
+			'supports' => array( 'title', 'editor', 'author', 'thumbnail', 'revisions')
 		) /* end of options */
 	); /* end of register post type */
 	

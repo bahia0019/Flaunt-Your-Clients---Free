@@ -22,6 +22,7 @@ $fyc_plugin_name = 'Flaunt Your Clients';
 * includes
 ******************************/
 
+
 global $acf;
 if( !$acf )
 {
@@ -29,8 +30,10 @@ if( !$acf )
     include_once('includes/advanced-custom-fields/acf.php' );
 }
 
+
 include('includes/custom-post-types.php'); // Custom Post Types for the Client Pages
 include('includes/client-template.php' );
+
 
 /******************************
 * script control
