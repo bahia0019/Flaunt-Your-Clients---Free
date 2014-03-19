@@ -30,7 +30,6 @@ if( !$acf )
     include_once('includes/advanced-custom-fields/acf.php' );
 }
 
-
 include('includes/custom-post-types.php'); // Custom Post Types for the Client Pages
 include('includes/client-template.php' );
 
@@ -188,7 +187,7 @@ if(function_exists("register_field_group"))
 
 			function remove_clients_metabox() 
 			{
-				remove_meta_box('tagsdiv-'.Clients, post, 'side' );
+				remove_meta_box('tagsdiv-'.'Clients', 'post', 'side' );
 			        
 			        // $custom_taxonomy_slug is the slug of your taxonomy, e.g. 'genre' )
 			        // $custom_post_type is the "slug" of your post type, e.g. 'movies' )
