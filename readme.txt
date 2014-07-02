@@ -2,6 +2,8 @@
 Contributors: bahia0019, brainfestation
 Tested up to: 3.8
 License: GPL
+Version: 0.6
+Stable tag: 0.6
 
 Photographers, create Client Hubs that display related blog posts, Love Stories, and Reviews from your Clients for an ultimate client experience.
 
@@ -57,4 +59,6 @@ Yes, however this is a Free version with more options to come in a Pro version (
 
 = 0.5 =
 * Initial Release
+= 0.6 =
+* Fixed issues with ProPhoto Theme
 

@@ -3,7 +3,7 @@
  * Plugin Name: Flaunt Your Clients
  * Plugin URI: http:#
  * Description: Flaunt Your Clients is a plugin for Professional Photographers to create Client Hubs that display related posts, Love Stories, and Reviews from your Clients. It's the perfect social proof for gaining new clients.
- * Version: 0.5
+ * Version: 0.6
  * Author: William Bay of Flaunt Your Site
  * Author URI: http://flauntyoursite.com
  * License: GPL2
