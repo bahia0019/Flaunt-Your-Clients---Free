@@ -33,6 +33,52 @@ if( !$acf )
 include('includes/custom-post-types.php'); // Custom Post Types for the Client Pages
 include('includes/client-template.php' );
 
+/*----------------------------------------------------------------------------*
+ * Dashboard and Administrative Functionality
+ *----------------------------------------------------------------------------*/
+
+/*
+ * @TODO:
+ *
+ * - replace `class-plugin-name-admin.php` with the name of the plugin's admin file
+ * - replace Plugin_Name_Admin with the name of the class defined in
+ *   `class-plugin-name-admin.php`
+ *
+ * If you want to include Ajax within the dashboard, change the following
+ * conditional to:
+ *
+ * if ( is_admin() ) {
+ *   ...
+ * }
+ *
+ * The code below is intended to to give the lightest footprint possible.
+ */
+if ( is_admin() && ( ! defined( 'DOING_AJAX' ) || ! DOING_AJAX ) ) {
+
+	require_once( plugin_dir_path( __FILE__ ) . 'admin/class-flaunt-your-clients-admin.php' );
+	add_action( 'plugins_loaded', array( 'Flaunt_Your_Clients_Admin', 'get_instance' ) );
+
+}
+
+
+//menu reorder
+add_filter('custom_menu_order','__return_true');
+add_filter('menu_order','mc_menu_order');
+function mc_menu_order($menu) {
+	$old = array_splice($menu,2,count($menu),array('2'=>'edit.php?post_type=page'));
+	$keys = array_flip($menu);
+	foreach($old as $item) {
+		if(!array_key_exists($item,$keys)) {
+			$menu[] = $item;
+		}
+	}
+	unset($old);
+	unset($keys);
+	return $menu;
+}
+
+
+
 
 /******************************
 * script control
@@ -79,7 +125,7 @@ if(function_exists("register_field_group"))
 				'label' => 'Select your client',
 				'name' => 'client_id',
 				'type' => 'taxonomy',
-				'required' => 1,
+				'required' => 0,
 				'taxonomy' => 'Clients',
 				'field_type' => 'select',
 				'allow_null' => 1,

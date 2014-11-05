@@ -13,7 +13,7 @@ function fyc_the_content( $content ) {
 			</div> <!-- Close .fyc-client-featured -->
 
 			<div class="fyc-client-sidebar">
-				<div>
+				<div class="fyc-client-recent-thumbs">
 
 						<?php
 								// The query variable

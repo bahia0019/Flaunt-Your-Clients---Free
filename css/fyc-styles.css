@@ -17,7 +17,7 @@ img.fyc-image{
 }
 
 .fyc-client-sidebar{
-	width: 30%;
+	max-width: 30%;
 	margin-left: 3%;
 	float: left;
 }
@@ -37,7 +37,12 @@ img.fyc-image{
 	margin-left: 2%;
 }
 
-.fyc-thumbnail{
+a.fyc-thumbnail{
+
+}
+.fyc-thumbnail img{
+	width: 100%;
+	height: auto;
 }
 
 h3.fyc-thumbnail-title{

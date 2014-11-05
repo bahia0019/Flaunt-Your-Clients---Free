@@ -1,0 +1,108 @@
+/* This stylesheet is used to style the admin option form of the plugin. */
+
+/* Removes notices from the Flaunt Your Studio Admin Page*/
+.fade {display: none;}
+
+
+#admin-wrap{
+	width: 120%;
+	margin-left: -20px;
+	float: left;
+	margin-top: 0;
+	border-top:1px solid #333;	
+	border-left:1px solid #333;
+}
+
+.admin-logo{
+	background-image: url('../../../assets/flaunt-logo.png');
+	background-repeat: no-repeat;
+	float: left;
+	width: 172px;
+	height: 118px;
+	margin-top: 15px;
+	margin-left: 15px;
+}
+
+.admin-header{
+	background-image: url('../../../assets/header-bg.png');
+	background-repeat: repeat-x;
+	float: left;
+	width: 100%;
+	height: 189px;
+}
+
+.flaunt-admin-title{
+	font-family: 'dincond-lightregular', arial, sans-serif;
+	letter-spacing:2px;
+	color: #DACFB4;
+	float: left;
+	margin-top: 40px!important;
+}
+
+.custom-site-cta{
+	float: right;
+	width:400px;
+	margin-right: 250px;
+}
+
+.custom-site-cta p{
+	font-family: 'dincond-lightregular', arial, sans-serif;
+	letter-spacing:2px;
+	color: #DACFB4;
+	font-size: 18px;
+}
+
+.custom-site-cta-orange{
+	color: #D64C27;
+	font-size: 18px;
+}
+
+.custom-site-cta-button{
+	font-family: 'dincond-lightregular', arial, sans-serif;
+	letter-spacing:2px;
+	color: #DACFB4;
+	font-size: 18px;
+	background-color: #D64C27;
+	padding: 5px 25px 5px 25px;
+	width: 200px;
+	border-radius: 5px;
+	text-align: center;
+	margin: 0 auto;
+	text-decoration: none;
+}
+.custom-site-cta-button:hover{
+	color: #ccc;
+}
+
+
+.admin-entry-content{
+	margin-left:20px; 
+}
+
+.icon32{
+	background-image: url('../admin-icon.png');
+	width: 32px;
+	height: 32px;
+	float: left;
+	display: inherit;
+	background-size:contain;
+	margin: 0 10px 0 10px;
+}
+
+.nav-tab{
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+}
+
+
+@font-face {
+    font-family: 'dincond-lightregular';
+    src: url('../fonts/din_condensed_light-webfont.eot');
+    src: url('../fonts/din_condensed_light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/din_condensed_light-webfont.woff') format('woff'),
+         url('../fonts/din_condensed_light-webfont.ttf') format('truetype'),
+         url('../fonts/din_condensed_light-webfont.svg#dincond-lightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
